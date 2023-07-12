@@ -8,15 +8,10 @@
     <title>{{ $title }}</title>
 </head>
 <body>
-    <main>
-        <h1>{{ $title }}</h1>
-        <article>
+    <div class="container mx-auto">
+         <h1>{{ $title }}</h1>
             {{ $slot }}
-        </article>
-        
-        <footer>
-            Created by: Laura Cacique.
-        </footer>
+    </div>
     </main>
 </body>
 </html>
